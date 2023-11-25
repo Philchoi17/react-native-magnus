@@ -32,7 +32,7 @@ export interface ModalProps
     Pick<DimensionPropsType, 'h'>,
     Pick<FlexPropsType, 'justifyContent'>,
     VariantPropsType {
-  children: React.ReactElement[] | React.ReactElement;
+  children?: React.ReactElement[] | React.ReactElement;
   animationIn?: Animation | CustomAnimation;
   animationInTiming?: number;
   animationOut?: Animation | CustomAnimation;

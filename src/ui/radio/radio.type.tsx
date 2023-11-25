@@ -52,7 +52,7 @@ export interface RadioProps
   checked?: boolean;
   onChange?: (value: any) => void;
   value?: any;
-  children: ((states: RadioStates) => React.ReactNode) | React.ReactNode;
+  children?: ((states: RadioStates) => React.ReactNode) | React.ReactNode;
 }
 
 export interface RadioStates {
